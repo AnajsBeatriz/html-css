@@ -1,0 +1,72 @@
+
+h1{
+    color: rgb(67, 28, 107)
+}
+
+h2{
+    color: rgb(145, 57, 184);
+}
+
+body{
+    background-image:linear-gradient(to bottom, #f5dae5e3 20%, #f2d3f0d6, #e2d3f2d2, #d0cae8cd );
+    background-attachment: fixed;
+    
+}
+
+table.comBorda {
+    border-collapse: collapse;
+    color: white;
+    background-color: rgb(188, 132, 240);
+    width:25rem;
+    height:13rem;
+}
+ 
+table.comBorda td {
+    border: 1px solid black;
+    text-align: center;
+}
+ 
+table.comBorda th {
+    border: 1px solid black;
+}
+
+.total{  
+  width: 6rem;
+  height: 2rem;
+}
+
+.descricao{
+    border-collapse: collapse;
+    color: rgba(2, 1, 1, 0.838);
+    width:40rem;
+    height:3rem;
+    border-radius: 5px;
+   
+}
+
+.icone{
+    width: 3rem;
+
+}
+mark{
+    background-color: #e7cae8ee;
+}
+.flowery{
+    padding: 2px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #ddb0f3d5;
+}
+a{
+    color: rgb(120, 65, 116);
+}
+div > p{
+    display: none;
+}
+div:hover > p {
+    display: block;
+}
+
+div:hover{
+    background-color: #d3b0e46f;
+}

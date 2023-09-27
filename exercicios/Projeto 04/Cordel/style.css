@@ -17,25 +17,21 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
-    min-height: 280px;
+    color: white;
     background-color: black;
     text-align: center;
-    padding-top: 50px;
     background: black url(imagens/birds.png) left bottom
     no-repeat;
-    background-size: auto;
-    
+    background-size: 60vw;  
 }
 
 h1{
+    padding-top: 50px;
     font-family: 'Passion One', 'Times New Roman', Times, serif;
-    font-size: 12em;
-    font-variant: small-caps;
-    color: white;
-    
+    font-size: 10vw;
+    font-variant: small-caps;   
 }
 .autor{
-    color: white;
     padding-bottom: 50px;
 }
 a {
@@ -48,29 +44,32 @@ a:hover {
 }
 section{
     font-family: 'sriracha', 'Times New Roman', Times, serif ;
-    font-size: 4.2em;
+    font-size: 3.5vw;
     line-height: 2em;
     padding: 80px 0px 100px 30px;   
 }
 .basico{
-    padding-bottom: 200px ;
+    padding-bottom: 100px ;
 }
 #imagem1{
     background: rgb(209, 209, 209) url(imagens/trees.jpg) center center no-repeat fixed;
     background-size: cover;  
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.483);
   
-}
-.fundotxt{
-    background-color: rgba(0, 0, 0, 0.694);
-    color: white;
-    width: 810px;
-    padding-left: 5px;
-    border-radius: 6px;
-
 }
 #imagem2{
     background: rgb(209, 209, 209) url(imagens/paper-.jpg) center center no-repeat fixed;
     background-size: cover; 
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.483);
+}
+.fundotxt{
+    background-color: rgba(0, 0, 0, 0.588);
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 6px;
+
 }
 footer{
     background-color: black;
